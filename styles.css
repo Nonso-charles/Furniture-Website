@@ -1,69 +1,94 @@
   .navbar {
       background-color: #f9f9f9;
       padding: 1rem 2rem;
-    }
-    .navbar-nav .nav-link {
+  }
+
+  .navbar-nav .nav-link {
       color: #333;
       font-weight: 500;
       margin: 0 10px;
-    }
-    .navbar-brand {
+  }
+
+  .navbar-brand {
       font-weight: bold;
       color: #333;
-    }
+  }
 
-    /* Hero Section Styling */
-    .hero-section {
+  /* Hero Section Styling */
+  .hero-section {
       background-color: #f9f9f9;
       text-align: center;
       padding: 0px 0px;
-    }
-    .hero-title {
+  }
+
+  .hero-title {
       font-family: 'Georgia', serif;
       font-size: 2.5rem;
       font-weight: bold;
       color: #333;
-    }
-    .hero-subtitle {
+  }
+
+  .hero-subtitle {
       color: #555;
       max-width: 600px;
       margin: 10px auto;
       font-size: 1rem;
-    }
-    
-    #numbers p {
-        font-family: 'Georgia', serif;
-    }
-    
-    .about-header {
-        font-family: 'Georgia', serif;
-    }
-    
-    .image-container img {
-      max-width: 45%;
-    }
+  }
 
-    .img1 {
+  #numbers p {
+      font-family: 'Georgia', serif;
+  }
+
+  .about-header {
+      font-family: 'Georgia', serif;
+  }
+
+  .image-container img {
+      max-width: 45%;
+  }
+
+  .img1 {
       align-self: flex-start;
       margin-right: 10px;
       margin-top: 5px;
-    }
+  }
 
-    .img2 {
+  .img2 {
       margin-top: 50px;
-    }
+  }
 
-    .brown, .cabinet, .chair {
+  .brown,
+  .cabinet,
+  .chair {
       width: 300px;
       height: auto;
-    }
+  }
 
-   .icon {
-    width: 10px;
-   }
+  .icon {
+      width: 10px;
+  }
 
-   .furniture {
-    width: 500px;
-    height: auto;
-   }
-    
+  .furniture {
+      width: 300px;
+      height: auto;
+  }
+
+  .review-img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+  }
+
+  .border-top-dotted {
+      border-top: 1px dotted #000;
+  }
+
+  #back-to-top {
+      text-decoration: underline;
+      cursor: pointer;
+  }
+
+  #back-to-top:hover {
+      text-decoration: none;
+  }
