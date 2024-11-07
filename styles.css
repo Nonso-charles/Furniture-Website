@@ -36,6 +36,34 @@
     }
     
     .about-header {
-        font-family: 'Georgia, serif;
+        font-family: 'Georgia', serif;
     }
+    
+    .image-container img {
+      max-width: 45%;
+    }
+
+    .img1 {
+      align-self: flex-start;
+      margin-right: 10px;
+      margin-top: 5px;
+    }
+
+    .img2 {
+      margin-top: 50px;
+    }
+
+    .brown, .cabinet, .chair {
+      width: 300px;
+      height: auto;
+    }
+
+   .icon {
+    width: 10px;
+   }
+
+   .furniture {
+    width: 500px;
+    height: auto;
+   }
     
